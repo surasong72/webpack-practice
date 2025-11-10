@@ -1,0 +1,183 @@
+/* Page container */
+.header {
+  align-items: center;
+}
+menu-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 20px;
+}
+
+/* Menu title */
+.menu-title {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+/* Container holding all cards */
+.menu-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+/* Individual menu card */
+.menu-card {
+  background-color: #fff;
+  width: 280px;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.15);
+  text-align: center;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.menu-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.menu-card h3 {
+  margin-bottom: 10px;
+  font-size: 1.4rem;
+}
+
+.menu-card p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 12px;
+}
+
+.menu-card .price {
+  font-weight: bold;
+  font-size: 1.15rem;
+  color: #0a7d06;
+}
+
+/* Optional fade-in animation */
+.menu-page {
+  animation: fadeIn 0.4s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+/* Home page container */
+.home-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 20px;
+  text-align: center;
+  animation: fadeIn 0.4s ease-in-out;
+}
+
+/* Hero section */
+.home-hero {
+  max-width: 700px;
+  margin-bottom: 50px;
+}
+
+.home-hero h1 {
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.home-hero p {
+  font-size: 1.15rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Container for sub-sections */
+.home-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  width: 100%;
+}
+
+/* Individual section card */
+.home-section {
+  background-color: #fff;
+  width: 280px;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.15);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.home-section:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.home-section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.home-section p {
+  font-size: 1rem;
+  color: #555;
+}
+/* Contact page */
+.contact-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 20px;
+  text-align: center;
+  animation: fadeIn 0.4s ease-in-out;
+}
+
+.contact-title {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+/* Container holding all cards */
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  width: 100%;
+}
+
+/* Individual contact card */
+.contact-card {
+  background-color: #fff;
+  width: 280px;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.15);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.contact-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.contact-card h3 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+.contact-card p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.4;
+}
